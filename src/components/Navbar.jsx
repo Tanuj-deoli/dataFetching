@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 function Navbar() {
   // console.log(NavLink,"NavLink")
@@ -38,7 +38,15 @@ function Navbar() {
           <NavLink to="/form" className={({ isActive, isPendibg }) => {
             return isActive ? "ActiveNavLink" : ""
           }}>Form</NavLink>
+          <NavLink to="/final-form" className={({ isActive, isPendibg }) => {
+            return isActive ? "ActiveNavLink" : ""
+          }}>final-form</NavLink>
+          <NavLink to="/formik" className={({ isActive, isPendibg }) => {
+            return isActive ? "ActiveNavLink" : ""
+          }}>formik-form</NavLink>
         </div>
+
+
       </Container>
     </div>
   )

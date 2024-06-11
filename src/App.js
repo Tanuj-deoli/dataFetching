@@ -23,6 +23,9 @@ import SingleCart from './components/SingleCart';
 import QuotesPage from './components/Quotes';
 import Recipes from './components/Recipes';
 import SingalRecipes from './components/SingalRecipes';
+import FinalForm from './components/FinalForm';
+import FormikForm from './components/FormikFormExample';
+import FormikFormOld from './components/FormikFormOld';
 
 function App() {
 
@@ -66,7 +69,16 @@ function App() {
     },
     {
       path: "/recipes/:id", element: <><Navbar /><SingalRecipes /></>
-    }
+    },
+    {
+      path: "/final-form", element: <><Navbar /><FinalForm /></>
+    },
+    {
+      path: "/formik", element: <><Navbar /><FormikForm /></>
+    },
+    {
+      path: "/Oldformik", element: <><Navbar /><FormikFormOld /></>
+    },
 
   ])
 

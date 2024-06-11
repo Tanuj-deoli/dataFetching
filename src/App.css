@@ -355,3 +355,83 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+
+.FinalForm .FieldInner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.FinalForm button {
+  border: 0;
+  margin-top: 30px;
+  background: #30ba2d;
+  padding: 0.5rem 16px;
+  border-radius: 8px;
+  color: white;
+}
+
+.FinalForm input {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #c3b5b5;
+  outline-color: #30ba2d;
+}
+
+.FinalForm .error-msg {
+  background: #e89999;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #dc1d1d;
+}
+
+.SubmittedData {
+  margin-top: 50px;
+}
+
+form .FormikForm {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.errorMsg {
+  background: #e89999;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #dc1d1d;
+}
+
+.FormikForm input,
+.FormikForm textarea {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #c3b5b5;
+  outline-color: #30ba2d;
+}
+
+.FormikFormPage {
+  margin-top: 50px;
+}
+
+.FormikFormPage button {
+  border: 0;
+  background: #30ba2d;
+  padding: 0.5rem 16px;
+  border-radius: 8px;
+  color: white;
+}
+
+.FieldArrayInput {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.FieldArrayInput input {
+  width: 100%;
+}
+
+.listWithCalories li {}
